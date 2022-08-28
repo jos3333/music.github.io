@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'krona one';
+}
+a{
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.contenedor {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+   }
+    header {
+        background:
+         url(img/logo.webp);
+         height: 80vh;
+    }
+
+header .menu{
+    display: flex;
+    justify-content: space-between;
+    color: red;
+}
+header .logo-y-menu {
+display: flex;
+align-items: center;
+padding-top: 0px;
+
+}
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+margin: 0 20px;
+}
+nav ul li a {
+    color: red;
+}
+
+header .boton a, .botones a, #discografia a {
+    background: red;
+    color: black;
+    padding: 20px 30px;
+    line-height: 50px;
+   border-radius: 20px;
+}
+header .titular {
+    margin-top: 19vh;
+    color: green;
+}
+h1 {
+    font-size: 50px;
+    width: 90%;
+    }
+span {
+    color: yellow; 
+}
+#discografia {
+    background: #000;
+    color: #fff;
+    padding: 60px 0;
+}
+#discografia h4{
+    margin:0;
+    color: yellow;
+    border: 1px solid red;
+    width: 80px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#discografia .contenedor {
+ display: flex;
+ align-items: center;
+}
+#discografia span{
+    color: red;
+    text-decoration: underline;
+}
+#discografia h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+#discografia p {
+    font-size: 14px;
+    line-height: 27px;
+    margin: 0;
+}
+.contenedor-textos{
+padding: 50px;
+}
+#discografia p{
+    margin-bottom: 40px;
+}
+#discografia img{
+    width: 100%;
+}
+#discografia .texto{
+   width: 50%;
+}
+#discografia .foto{
+    width: 30%;
+}
+.contenedor-textos{
+    display: flex;
+
+}
+#about h4 {
+    color: red;
+    border: 1px solid green;
+    width: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+#about p{
+    font-family: playfair;
+}
+#tour {
+    background: firebrick;
+}
+#tour .contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+#tour img{
+    width: 400px;
+    padding: 30px;
+}
+#tour h4 {
+    color: yellow;
+}
+#tour p {
+    color: blanchedalmond;
+}
+footer {
+    text-align: center;
+    padding: 60px 0;
+}
+@media (max-widht: 800px) {
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 27px !important;
+}
