@@ -141,7 +141,10 @@ footer {
     text-align: center;
     padding: 60px 0;
 }
-@media (max-widht: 800px) {
+@media screen and(max-widht: 800px) {
+    .menu-navegacion{ 
+    flex-direction: column;
+    }
 }
 h1{
     font-size: 32px;
